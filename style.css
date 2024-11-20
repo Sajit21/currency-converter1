@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 206, 206);
+    padding:2rem;
+   
+    flex-direction: column;
+    min-height: 35vh;
+    width: 40vw;
+    border-radius: 2rem;
+
+}
+form select,input,button{
+    border-radius: 0.75rem;
+    width: 100%;
+    border: none;
+    outline: none;
+
+
+}
+
+.btn{
+    cursor: pointer;
+    background-color: azure;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(219, 47, 32);
+    
+}

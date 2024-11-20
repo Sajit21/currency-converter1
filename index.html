@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- use of ajax lib for the use of the link content -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+   <link rel="stylesheet" href="style.css">
+    <body>
+    <div class="container">
+    <h2>Currency Converter</h2>    
+    <form >
+        <div class="cont1">
+            <p>Enter the amount</p>
+            <input value="100" name="name">
+        </form>
+        <div class="from">
+                <p>Translating From</p>
+       
+            <div class="dropdown">
+                <img src="https://flagsapi.com/US/flat/64.png" > 
+                <!-- slash pachi any flag name you want can be placed -->
+                <select name="from" id="flag">
+                    <!-- <option value="USD">USD</option>
+                    <option value="INR" >INR</option>
+                    <option value="EUR">EUR</option> -->
+                </select>
+            </div>
+        </div><br>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i><br><br>
+            <!-- use of api call for the exchange arrow  -->
+         <div class="to">
+                <p>Translating To</p>
+            <div class="dropdown">
+                <img src="https://flagsapi.com/IN/flat/64.png" >
+                <select name="to" id="flag">
+                    <!-- <option value="USD">USD</option>
+                    <option value="INR" selected>INR</option>
+                    <option value="EUR">EUR</option> -->
+
+                </select>
+            </div>
+           </div>
+            
+            
+            <div class="msg">1USD=80INR</div>
+            <button class="btn">Exchange Currency</button>
+           
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="new.js"></script>
+    
+</body>
+</html>
